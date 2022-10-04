@@ -18,7 +18,7 @@ int main () {
             cout << "Incorect input\n";
         }
         else {
-            // Перевірка умови задачі: |y|>0=|x|, |y|<=1.
+            // Перевірка умови задачі: |y|>=|x|, |y|<=1.
 
             if (fabs(y) >= fabs(x)) {
                 fabs(y) <= 1 ? cout << "The point falls into the region.\n" : cout
