@@ -28,5 +28,4 @@ int main () {
     cout << "The total sum of the series: \n" << sum << "\n";
 
 
-    //return 0;
 }
