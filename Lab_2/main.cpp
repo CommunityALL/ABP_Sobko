@@ -27,7 +27,7 @@ int main () {
         }
 //        if (n == 10.0) {
 //            cout << "The sum of 11 members of the series: \n" << sum << "\n";
-//            cout << curr << "\n";
+//            cout << "11 member series: \n" << curr << "\n";
 //        }
 
     }
