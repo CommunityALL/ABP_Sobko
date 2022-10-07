@@ -23,7 +23,7 @@ int main () {
         k=-k;
         sum = sum + curr;
         if(n == 9.0) {
-            cout << "The sum of 10 members of the series: \n" << sum << "\n";
+            cout << "The sum of 10 members of the series (starting from 0): \n" << sum << "\n";
         }
 //        if (n == 10.0) {
 //            cout << "The sum of 11 members of the series: \n" << sum << "\n";
