@@ -5,6 +5,7 @@
 using namespace std;
 
 int main () {
+
     cout << "Lab_2\nvar_4\n";
 
     double n = 0.0;
