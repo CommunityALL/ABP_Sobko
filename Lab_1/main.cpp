@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+
 using namespace std;
 
 int main () {
@@ -9,13 +10,13 @@ int main () {
     cout << "Enter x: \n";
     cin >> x;
     if (!x){
-        cout << "Incorect input\n";
+        cout << "Incorrect input\n";
     }
     else {
         cout << "Enter y: \n";
         cin >> y;
         if (!y) {
-            cout << "Incorect input\n";
+            cout << "Incorrect input\n";
         }
         else {
             // Перевірка умови задачі: |y|>=|x|, |y|<=1.
