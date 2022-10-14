@@ -24,7 +24,6 @@ int main (){
             cout << "Incorrect input.\n";
         }
     }
-
 }
 
 int lab_2_1 () {
@@ -56,6 +55,7 @@ int lab_2_1 () {
     }
     cout << "The total sum of the series: \n" << sum << "\n" << "n = " << n << "\n";
 
+    return 0;
 }
 
 int lab_2_2 (){
@@ -253,4 +253,6 @@ int lab_2_2 (){
     cout << "|Note: the following type coding is adopted: O - original,    |" << "\n";
     cout << "|P - purchased, B - borrowed                                  |\n";
     cout << "+-------------------------------------------------------------+\n";
+
+    return 0;
 }
