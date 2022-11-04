@@ -3,12 +3,27 @@
 
 using namespace std;
 
-int main(){
+int main() {
     cout << "Lab_7\nvar_4\n";
 
     int lines;
     cout << "\nEnter the number of lines:\n";
     cin >> lines;
+
+    struct elements{
+        string name;
+        char type{};
+        int quan{};
+        int weight{};
+    };
+
+    elements array[lines];
+    for (int i = 0; i < lines;){
+            cout << "\nNote: the following type coding is adopted: O - original, P - purchased, B - borrowed\n";
+            cout << "\nEnter the name/type/quan/weigh of " << i+1 << " element\n";
+            cin >> array[i].name >> array[i].type >> array[i].quan >> array[i].weight;
+            i++;
+        }
 
     string ArrayNames[lines];
     char type[lines];
@@ -16,9 +31,10 @@ int main(){
     int weight[lines];
 
     for (int i = 0; i < lines;){
-        cout << "\nNote: the following type coding is adopted: O - original, P - purchased, B - borrowed\n";
-        cout << "\nEnter the name/type/quan/weigh of " << i+1 << " element\n";
-        cin >> ArrayNames[i] >> type[i] >> quan[i] >> weight[i];
+        ArrayNames[i] = array[i].name;
+        type[i] = array[i].type;
+        quan[i] = array[i].quan;
+        weight[i] = array[i].weight;
         i++;
     }
 
@@ -52,7 +68,6 @@ int main(){
                     string variable = ArrayNames[i];
                     ArrayNames[i] = minString;
                     ArrayNames[i + 1] = maxString;
-
                 }
                 equality++;
             }
