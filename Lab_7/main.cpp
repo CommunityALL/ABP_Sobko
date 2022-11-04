@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int main(){
     cout << "Lab_7\nvar_4\n";
 
     int lines;
