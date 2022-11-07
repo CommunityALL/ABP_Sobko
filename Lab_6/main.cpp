@@ -30,7 +30,7 @@ int EnterSide1(int side){
     return side;
 }
 int EnterSide2(int side){
-    cout << "Enter height: \n";
+    cout << "Enter width: \n";
     cin >> side;
     return side;
 }
