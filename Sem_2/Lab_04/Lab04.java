@@ -50,7 +50,6 @@ public class Lab04 extends JPanel{
         window.add(label);
         Lab04 polygons = new Lab04();
         window.add(polygons);
-
         window.setVisible(true);
     }
 
