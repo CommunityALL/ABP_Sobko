@@ -1,3 +1,5 @@
+package Sem_2.Lab_02;
+
 import java.util.Scanner;
 public class Lab02{
     public static void main(String[] args){

@@ -1,8 +1,10 @@
+package Sem_2.Lab_03;
+
 import java.util.Scanner;
 public class Lab03 {
     public static void main(String[] args) {
-        Lab03 programm = new Lab03();
-        programm.start();
+        Lab03 program = new Lab03();
+        program.start();
     }
     public void start(){
         Scanner console = new Scanner(System.in);
