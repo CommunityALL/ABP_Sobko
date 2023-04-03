@@ -32,12 +32,7 @@ public class Lab08 extends Application {
         triangle.setStroke(Color.BLACK);
         ContextMenu contextMenu = new ContextMenu();
         MenuItem red = new MenuItem("Red");
-        red.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                triangle.setFill(Color.RED);
-            }
-        });
+        red.setOnAction(actionEvent -> triangle.setFill(Color.RED));
         MenuItem black = new MenuItem("Black");
         black.setOnAction(actionEvent -> triangle.setFill(Color.BLACK));
         MenuItem green = new MenuItem("Green");
