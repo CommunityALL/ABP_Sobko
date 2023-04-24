@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #442D25;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sem_2.Lab_09.AddHumanController">
+    <children>
+        <AnchorPane layoutY="67.0" prefHeight="333.0" prefWidth="600.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+              <Button fx:id="addHumanButton" layoutX="203.0" layoutY="271.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="193.0" style="-fx-background-color: #FFE4C4;" text="Додати людину">
+                  <font>
+                      <Font name="System Bold Italic" size="17.0" />
+                  </font>
+              </Button>
+            <Label layoutX="80.0" layoutY="61.0" style="-fx-background-color: #FAFAFA;" text="Ім'я">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="firstNameField" layoutX="220.0" layoutY="61.0" prefHeight="26.0" prefWidth="300.0" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;" />
+            <Label layoutX="80.0" layoutY="104.0" style="-fx-background-color: #FAFAFA;" text="Прізвище">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="lastNameField" layoutX="220.0" layoutY="104.0" prefHeight="27.0" prefWidth="300.0" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;" />
+            <Label layoutX="80.0" layoutY="150.0" style="-fx-background-color: #FAFAFA;" text="Рівень">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="juniorButton" layoutX="220.0" layoutY="153.0" mnemonicParsing="false" selected="true" text="Junior">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="levelGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="middleButton" layoutX="327.0" layoutY="153.0" mnemonicParsing="false" text="Middle" toggleGroup="$levelGroup">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="seniorButton" layoutX="439.0" layoutY="153.0" mnemonicParsing="false" text="Senior" toggleGroup="$levelGroup">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </RadioButton>
+            <Label layoutX="80.0" layoutY="199.0" style="-fx-background-color: #FAFAFA;" text="Посада">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="jobTitleComboBox" layoutX="220.0" layoutY="199.0" prefHeight="27.0" prefWidth="300.0" style="-fx-background-color: #FAFAFA; -fx-border-color: silver; -fx-border-radius: 5;" />
+         </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
