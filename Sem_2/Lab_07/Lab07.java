@@ -87,6 +87,7 @@ public class Lab07 extends Application {
                         arr[i] = Integer.parseInt(textField[i + 1].getText());
                     }
                     if (arr[i] < 0) {
+
                         JOptionPane.showMessageDialog(null, "Введено некоректне значення.");
                     } else if (arr[i] > max) {
                         max = arr[i];
