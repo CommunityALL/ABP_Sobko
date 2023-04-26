@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sem_2.Lab_10.Lab10Controller">
+   <children>
+      <Label fx:id="name1" layoutX="41.0" layoutY="25.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa10" layoutX="529.0" layoutY="88.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa9" layoutX="529.0" layoutY="55.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa8" layoutX="529.0" layoutY="25.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa7" layoutX="236.0" layoutY="226.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa6" layoutX="236.0" layoutY="190.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa5" layoutX="236.0" layoutY="153.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa4" layoutX="236.0" layoutY="118.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa3" layoutX="236.0" layoutY="88.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa2" layoutX="236.0" layoutY="55.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name13" layoutX="333.0" layoutY="190.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name12" layoutX="333.0" layoutY="153.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name11" layoutX="333.0" layoutY="118.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name10" layoutX="333.0" layoutY="88.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name9" layoutX="333.0" layoutY="55.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name8" layoutX="333.0" layoutY="25.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa13" layoutX="529.0" layoutY="190.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa12" layoutX="529.0" layoutY="153.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa11" layoutX="529.0" layoutY="118.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpa1" layoutX="236.0" layoutY="25.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name7" layoutX="41.0" layoutY="226.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name6" layoutX="41.0" layoutY="190.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name5" layoutX="41.0" layoutY="153.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name4" layoutX="41.0" layoutY="118.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name3" layoutX="41.0" layoutY="88.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name2" layoutX="41.0" layoutY="55.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="staptButton" layoutX="446.0" layoutY="328.0" mnemonicParsing="false" style="-fx-background-color: #98FB98; -fx-border-color: silver; -fx-border-radius: 5;" text="Запустити">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

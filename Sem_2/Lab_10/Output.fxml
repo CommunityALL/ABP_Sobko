@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="449.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sem_2.Lab_10.OutputController">
+   <children>
+      <Label fx:id="line1" layoutX="51.0" layoutY="30.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="line4" layoutX="51.0" layoutY="127.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="line3" layoutX="51.0" layoutY="95.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="line2" layoutX="51.0" layoutY="61.0" style="-fx-background-color: #FAFAFA;" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
