@@ -159,18 +159,16 @@ public class Lab01Class {
                                         arr[m][n] = y[m];
                                 }
                                 System.out.print(coordinate);
-                                System.out.print(m + ": ");
+                                System.out.print(m + ": " + arr[m][n]);
                                 System.out.println("(" + arrayLetters[m] + ")");
                                 n++;
                         }
                         m++;
                 }
                 int numberOfPairs = 0;
-                for(int i = 1; i < 5;){
+                for(int i = 1; i < 5; i++){
                         numberOfPairs += i;
-                        i++;
                 }
-                System.out.println(numberOfPairs);
                 double[] arrayOfLengths = new double [numberOfPairs];
                 char[][] arrayOfLengthsLetters = new char [numberOfPairs][2];
                 int counter1 = 0;
@@ -187,7 +185,6 @@ public class Lab01Class {
                         }
                         m1++;
                 }
-                System.out.println(counter1);
                 double maxLength = arrayOfLengths[0];
                 char maxLengthLetter1 = 'A', maxLengthLetter2 = 'B';
                 for(int i = 0; i < counter1 - 1;){
