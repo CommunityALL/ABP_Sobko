@@ -74,7 +74,7 @@ public class Lab01{
 
             System.out.println("Enter n:");
             int n = console.nextInt();
-            if (n <= 8) {
+            if (n <= 8 && n >= 0) {
                 double seriesSum = 0;
                 double seriesMember;
                 int factorial = 1;
