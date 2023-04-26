@@ -74,26 +74,30 @@ public class Lab01{
 
             System.out.println("Enter n:");
             int n = console.nextInt();
-            double seriesSum = 0;
-            double seriesMember;
-            int factorial = 1;
-            int poweerOfTwo = 1;
-            for(int i = 1; i <= n;){
-                for(int counter = 1; counter <= i;){
-                    factorial *= counter;
-                    poweerOfTwo *= 2;
-                    counter++;
+            if (n <= 8) {
+                double seriesSum = 0;
+                double seriesMember;
+                int factorial = 1;
+                int poweerOfTwo = 1;
+                for (int i = 1; i <= n; ) {
+                    for (int counter = 1; counter <= i; ) {
+                        factorial *= counter;
+                        poweerOfTwo *= 2;
+                        counter++;
+                    }
+                    if (i % 2 == 1) {
+                        seriesMember = factorial / poweerOfTwo;
+                    } else {
+                        seriesMember = (i * poweerOfTwo) / factorial;
+                    }
+                    seriesSum += seriesMember;
+                    i++;
                 }
-                if (i % 2 == 1){
-                    seriesMember = factorial / poweerOfTwo;
-                }
-                else {
-                    seriesMember = (i * poweerOfTwo) / factorial;
-                }
-                seriesSum += seriesMember;
-                i++;
+                System.out.println("The sum of the terms of the series:\n" + seriesSum);
             }
-            System.out.println("The sum of the terms of the series:\n" + seriesSum);
+            else {
+                System.out.println("Error.");
+            }
         }
         else if (partOfLab == 4){
 
